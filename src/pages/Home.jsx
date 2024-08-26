@@ -50,7 +50,7 @@ const Home = () => {
             {/* Bot right */}
             <div className="image">
               <img
-                src="../../public/img/about/image.jpg"
+                src={"/img/about/image.jpg"}
                 alt="Modern kitchen with white cabinets and marble countertops"
               />
             </div>
@@ -81,7 +81,7 @@ const Home = () => {
                 />
                 <div className="btn-right">
                   <img
-                    src="../../public/img/icons/phone-btn.png"
+                    src={"/img/icons/phone-btn.png"}
                     alt="email icon"
                   />
                   <div className="btn-details">
@@ -146,7 +146,7 @@ const Home = () => {
                 />
                 <div className="btn-right">
                   <img
-                    src="../../public/img/icons/phone-btn.png"
+                    src={"/img/icons/phone-btn.png"}
                     alt="email icon"
                   />
                   <div className="btn-details">
@@ -159,7 +159,7 @@ const Home = () => {
               <div className="bot">
                 <div className="logo">
                   <img
-                    src="../../public/img/logo.png"
+                    src={"/img/logo.png"}
                     alt="Arizona Interior Construction Logo"
                   />
                 </div>
@@ -185,7 +185,7 @@ const Home = () => {
 
           <div className="image">
             <img
-              src="../../public/img/faq/image.jpg"
+              src={"/img/faq/image.jpg"}
               alt="Modern kitchen with white cabinets and marble countertops"
             />
           </div>
@@ -194,7 +194,7 @@ const Home = () => {
         <div className="bot-2">
           <div className="logo">
             <img
-              src="../../public/img/logo.png"
+              src={"/img/logo.png"}
               alt="Arizona Interior Construction Logo"
             />
           </div>
@@ -240,7 +240,7 @@ const Home = () => {
               />
               <div className="btn-right">
                 <img
-                  src="../../public/img/icons/phone-btn.png"
+                  src="/img/icons/phone-btn.png"
                   alt="email icon"
                 />
                 <div className="btn-details">
@@ -252,7 +252,7 @@ const Home = () => {
             <div className="cards-container">
               <div className="card">
                 <img
-                  src="../../public/img/services/image1.jpg"
+                  src="/img/services/image1.jpg"
                   alt="Kitchen Remodeling"
                 />
                 <CustomButton
@@ -265,7 +265,7 @@ const Home = () => {
               </div>
               <div className="card">
                 <img
-                  src="../../public/img/services/image2.jpg"
+                  src="/img/services/image2.jpg"
                   alt="Bathroom Remodeling"
                 />
                 <CustomButton
@@ -277,7 +277,7 @@ const Home = () => {
               </div>
               <div className="card">
                 <img
-                  src="../../public/img/services/image3.jpg"
+                  src="/img/services/image3.jpg"
                   alt="Repair Needs"
                 />
                 <CustomButton
@@ -298,7 +298,7 @@ const Home = () => {
       {/* <section id="gallery">
         <div className="top d-flex">
           <div class="logo">
-              <img src="../../public/img/logo.png" alt="Arizona Interior Construction Logo"/>
+              <img src="/img/logo.png" alt="Arizona Interior Construction Logo"/>
           </div>
           <div className="txt">
             <p className="sub-heading">SOME RECENT WORKS</p>
@@ -310,9 +310,9 @@ const Home = () => {
 
           <div class="img-gallery">
             <div class="gallery-container">
-                <img src="../../public/img/gallery/image1.jpg" alt="Kitchen Design 1"/>
-                <img src="../../public/img/gallery/image2.jpg" />
-                <img src="../../public/img/gallery/image3.jpg" />
+                <img src="/img/gallery/image1.jpg" alt="Kitchen Design 1"/>
+                <img src="/img/gallery/image2.jpg" />
+                <img src="/img/gallery/image3.jpg" />
             </div>
         </div>
 
