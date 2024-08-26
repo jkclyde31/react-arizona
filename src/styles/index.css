@@ -1019,3 +1019,84 @@ flex: 1 1 50%; }#about .bot .image img {width: 100%;height: auto;}
 }
 
 }
+
+
+
+
+
+
+
+
+:root{
+  /*HOVER GRAD COLOR*/
+  --theme-color1: #ae8fff;
+  --theme-color2: #7243f2;
+  
+  /*HOVER SOLID COLOR*/
+  --theme-color3: #ffffff;
+  
+  --theme-color4: #1d1729;
+  --bg-theme-color2: #7243f2;
+  --gradient-1: linear-gradient(to left, var(--theme-color1), var(--theme-color2));
+}
+/*Button Global style */
+.btn-style-one.btn-style-skew .elementor-button{
+  -webkit-transform: skew(-12deg);
+  transform: skew(-12deg);
+  transform-origin: top right !important;
+   -webkit-transform-origin: top right !important;
+   margin-right: 8px;
+}
+.btn-style-one .elementor-button-text, .btn-style-one .elementor-button-icon{
+   z-index: 2;
+}
+.btn-style-one.btn-style-skew .elementor-button-text{
+   transform: skew(12deg) !important;
+}
+.btn-style-one .elementor-button:before,.btn-style-two .elementor-button:before{
+  position: absolute;
+  left: 0;
+  top: 0%;
+  height: 100%;
+  width: 100%;
+  content: "";
+  background-color: var(--theme-color3);
+  z-index: -1;
+  -webkit-transform: scale(0, 1);
+  transform: scale(0, 1);
+  -webkit-transform-origin: bottom left;
+  transform-origin: bottom left;
+  transition: -webkit-transform 500ms cubic-bezier(0.86, 0, 0.07, 1);
+  -webkit-transition: -webkit-transform 500ms cubic-bezier(0.86, 0, 0.07, 1);
+  transition: transform 500ms cubic-bezier(0.86, 0, 0.07, 1);
+  transition: transform 500ms cubic-bezier(0.86, 0, 0.07, 1), -webkit-transform 500ms cubic-bezier(0.86, 0, 0.07, 1);
+  -webkit-transition-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
+  transition-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
+}
+.btn-style-one.hvr-dark .elementor-button:before{
+  background-color: var(--theme-color4)!important;
+  z-index: 0;
+}
+.btn-style-one .elementor-button:hover:before{
+  -webkit-transform-origin: top right;
+  transform-origin: top right;
+  -webkit-transform: scale(1, 1);
+  transform: scale(1, 1);
+}
+.btn-style-two .elementor-button{
+  -webkit-transform: skew(-12deg);
+  transform: skew(-12deg);
+  -webkit-transform-origin: bottom left;
+  transform-origin: bottom left;
+}
+.btn-style-two .elementor-button:before{
+  background: var(--gradient-1);
+  -webkit-transform-origin: top right;
+  transform-origin: top right;
+}
+.btn-style-two:hover .elementor-button:before {
+  -webkit-transform-origin: bottom left;
+  transform-origin: bottom left;
+  -webkit-transform: scale(1, 1);
+  transform: scale(1, 1);
+}

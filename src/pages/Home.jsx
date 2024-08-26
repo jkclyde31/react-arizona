@@ -2,7 +2,11 @@ import React, { useContext } from "react";
 import CustomButton from "../components/Button";
 import { SiteInfoContext } from "../context";
 
+
+
 const Home = () => {
+
+  
   const siteInfo = useContext(SiteInfoContext);
 
   return (
@@ -78,6 +82,7 @@ const Home = () => {
                   text="GET A QUOTE"
                   maxWidth={"219px"}
                   minHeight={"57px"}
+                 
                 />
                 <div className="btn-right">
                   <img
