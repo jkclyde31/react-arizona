@@ -13,7 +13,7 @@ const Header = () => {
         <div className="content ">
           <div className="left">
             <div className="phone">
-              <img src={"/public/img/icons/phone.png"} alt="Phone Icon" />
+              <img src={"/img/icons/phone.png"} alt="Phone Icon" />
               <p>{siteInfo.phone}</p>
             </div>
             <div className="email">
@@ -36,7 +36,7 @@ const Header = () => {
           <div className="content">
             {/* LOGO */}
             <Link to="/#page-top">
-              <img src="../../public/img/logo.png" alt="Logo" className="nav-logo"/>
+              <img src={"/img/logo.png"} alt="Logo" className="nav-logo"/>
             </Link>
             {/* navbar */}
             <div className="left">
@@ -113,7 +113,7 @@ const Header = () => {
         <div className="row">
           <div className="txt">
            <Link to="/#page-top" >
-              <img src="../../public/img/logo.png" alt="Logo" className="mobile mobile-logo" />
+              <img src={"/img/logo.png"} alt="Logo" className="mobile mobile-logo" />
             </Link>
             <p className="sub-heading">AT ARIZONA INTERIOR CONSTRUCTION</p>
             <h1 className="heading">
@@ -135,7 +135,7 @@ const Header = () => {
             />
             <div className="btn-right">
               <img
-                src="../../public/img/icons/phone-btn.png"
+                src={"/img/icons/phone-btn.png"}
                 alt="email icon"
               />
               <div className="btn-details">
