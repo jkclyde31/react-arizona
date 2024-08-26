@@ -784,7 +784,8 @@ flex: 1 1 50%; }#about .bot .image img {width: 100%;height: auto;}
 #about .bot{flex-direction: column-reverse;}
 #about .bot .txt {padding-top:180px;}
 #about .bot .left, #about .bot .image , #about .buttons {margin: 0 auto;text-align: center;}
-#about .bot .left {max-width: 100%;width: 100%;}#about .bot .txt{max-width: 80%;width: 100%;margin: 0 auto;}
+#about .bot .left {max-width: 100%;width: 100%;}
+#about .bot .txt{max-width: 95%;width: 100%;margin: 0 auto;}
 #about .bot .txt .details {padding-bottom: 35px;}
 #about .bot .image img {width: 75%;margin: 0 auto;padding-bottom: 10px;}
 /* FAQS */
