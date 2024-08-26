@@ -63,14 +63,14 @@ const Footer = ({ view }) => {
                     </div>
 
                     <div className="logo">
-                      <img src="../../public/img/logo.png" alt="Arizona Interior Construction Logo" />
+                      <img src="/img/logo.png" alt="Arizona Interior Construction Logo" />
                     </div>
                     <div className="socmed">
-                      <img src="../../public/img/footer/socmed/fb.png" alt="Facebook Logo" />
-                      <img src="../../public/img/footer/socmed/x.png" alt="X / Twitter Logo" />
-                      <img src="../../public/img/footer/socmed/ig.png" alt="Instagram Logo" />
-                      <img src="../../public/img/footer/socmed/yt.png" alt="YouTube Logo" />
-                      <img src="../../public/img/footer/socmed/in.png" alt="LinkedIn Logo" />
+                      <img src="/img/footer/socmed/fb.png" alt="Facebook Logo" />
+                      <img src="/img/footer/socmed/x.png" alt="X / Twitter Logo" />
+                      <img src="/img/footer/socmed/ig.png" alt="Instagram Logo" />
+                      <img src="/img/footer/socmed/yt.png" alt="YouTube Logo" />
+                      <img src="/img/footer/socmed/in.png" alt="LinkedIn Logo" />
                     </div>
                   </form>
                 </div>
@@ -81,7 +81,7 @@ const Footer = ({ view }) => {
           <div className="footer-info">
             <a href={`mailto:${siteInfo.email}`}>
               <div className="info-item hvr-pop">
-                <img src="../../public/img/footer/ctc-icons/email.png" alt="Email Icon" />
+                <img src="/img/footer/ctc-icons/email.png" alt="Email Icon" />
                 <div className="txt">
                   <strong className="db">MAIL</strong>
                   <p>
@@ -94,7 +94,7 @@ const Footer = ({ view }) => {
 
             <a href={`tel:${siteInfo.phone}`}>
               <div className="info-item hvr-pop">
-                <img src="../../public/img/footer/ctc-icons/phone.png" alt="Phone Icon" />
+                <img src="/img/footer/ctc-icons/phone.png" alt="Phone Icon" />
                 <div className="txt">
                   <strong>PHONE</strong>
                   <p className="big">{siteInfo.phone}</p>
@@ -104,7 +104,7 @@ const Footer = ({ view }) => {
 
             <a href={`tel:${siteInfo.phone}`}>
               <div className="info-item hvr-pop">
-                <img src="../../public/img/footer/ctc-icons/loc.png" alt="Location Icon" />
+                <img src="/img/footer/ctc-icons/loc.png" alt="Location Icon" />
                 <div className="txt">
                   <strong>LOCATION</strong>
                   <p className="big">
