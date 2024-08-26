@@ -972,6 +972,12 @@ flex: 1 1 50%; }#about .bot .image img {width: 100%;height: auto;}
   border-radius: 30px;
 }
 
+#footer #contact .flex-form {
+
+  flex-direction: column;
+  padding-bottom: 15px;
+}
+
 .label-and-captcha {
   flex-direction: column;
 }
