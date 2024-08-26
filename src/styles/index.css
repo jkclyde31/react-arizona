@@ -899,9 +899,13 @@ flex: 1 1 50%; }#about .bot .image img {width: 100%;height: auto;}
 }
 
 /* sercices */
+#services .txt {
+  max-width: 90%;
+  width: 100%;
+}
+
 .card-button {
   bottom: 25px;
-
 }
 
 .cards-container {
