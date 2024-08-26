@@ -13,11 +13,11 @@ const Header = () => {
         <div className="content ">
           <div className="left">
             <div className="phone">
-              <img src="../../public/img/icons/phone.png" alt="Phone Icon" />
+              <img src="/public/img/icons/phone.png" alt="Phone Icon" />
               <p>{siteInfo.phone}</p>
             </div>
             <div className="email">
-              <img src="../../public/img/icons/email.png" alt="email icon" />
+              <img src="/public/img/icons/email.png" alt="email icon" />
               <p>{siteInfo.email}</p>
             </div>
           </div>
