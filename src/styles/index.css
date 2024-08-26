@@ -774,8 +774,7 @@ flex: 1 1 50%; }#about .bot .image img {width: 100%;height: auto;}
 }
 
 #footer .sub-footer {
-
-  padding: 0 30px;
+  padding: 0 15px;
 }
 
 
@@ -963,6 +962,14 @@ flex: 1 1 50%; }#about .bot .image img {width: 100%;height: auto;}
 #about .top .container {
   grid-template-columns: repeat(1, 1fr);
   
+}
+
+#footer #contact .heading {
+  font-size: 35px;
+}
+#footer #contact{
+  padding: 25px 15px;
+  border-radius: 30px;
 }
 
 .label-and-captcha {
