@@ -295,41 +295,39 @@ const Home = () => {
 
      
      {/* GALLERY */}
-      {/* <section id="gallery">
-        <div className="top d-flex">
-          <div class="logo">
-              <img src="/img/logo.png" alt="Arizona Interior Construction Logo"/>
-          </div>
-          <div className="txt">
-            <p className="sub-heading">SOME RECENT WORKS</p>
-            <h1 className="heading">Ideas And Visions Turn Into Reality</h1>
-            <p className="details">Our experience and skills together with your ideas and vision will turn any space into your REAL HOME.</p>
-          </div>
-   
-         </div>
+{/* GALLERY */}
+<section id="gallery">
+  <div className="top d-flex">
+    <div className="logo">
+      <img src="/img/logo.png" alt="Arizona Interior Construction Logo"/>
+    </div>
+    <div className="txt">
+      <p className="sub-heading">SOME RECENT WORKS</p>
+      <h1 className="heading">Ideas And Visions Turn Into Reality</h1>
+      <p className="details">Our experience and skills together with your ideas and vision will turn any space into your REAL HOME.</p>
+    </div>
+  </div>
 
-          <div class="img-gallery">
-            <div class="gallery-container">
-                <img src="/img/gallery/image1.jpg" alt="Kitchen Design 1"/>
-                <img src="/img/gallery/image2.jpg" />
-                <img src="/img/gallery/image3.jpg" />
-            </div>
-        </div>
+  <div className="img-gallery">
+    <div className="gallery-container">
+      <img src="/img/gallery/image1.jpg" className="edge" alt="Kitchen Design 1"/>
+      <img src="/img/gallery/image2.jpg" className="mid" alt="Interior Design 2"/>
+      <img src="/img/gallery/image3.jpg" className="edge" alt="Living Room Design 3"/>
+    </div>
+  </div>
 
-        <section class="bot">
-            <p className="bot-sub-heading">
-               ARIZONA INTERIOR
-            </p>
-            <h2 className="bot-heading">Arizona Interior is Here For You To Help!</h2>
-            <CustomButton
-                  text="Get a Qoute"
-                  className="gallery-button"
-                  maxWidth={'219px'}
-                 
-                />
-        </section>
-
-      </section> */}
+  <section className="bot">
+    <p className="bot-sub-heading">
+      ARIZONA INTERIOR
+    </p>
+    <h2 className="bot-heading">Arizona Interior is Here For You To Help!</h2>
+    <CustomButton
+      text="Get a Quote"
+      className="gallery-button"
+      maxWidth={'219px'}
+    />
+  </section>
+</section>
      
     </>
   );
