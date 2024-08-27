@@ -7,10 +7,13 @@ const Header = () => {
   const siteInfo = useContext(SiteInfoContext);
 
   return (
-    <section id="header">
+    <>
+         <section id="header">
       {/* TOP */}
       <div className="upper">
         <div className="content ">
+
+
           <div className="left">
             <div className="phone">
               <img src={"/img/icons/phone.png"} alt="Phone Icon" />
@@ -21,6 +24,8 @@ const Header = () => {
               <p>{siteInfo.email}</p>
             </div>
           </div>
+
+          
           <div className="right">
             <p>
               Specializing in Granite, Quartz Countertops, and Backsplash.
@@ -147,6 +152,9 @@ const Header = () => {
         </div>
       </div>
     </section>
+    </>
+
+ 
   );
 };
 
